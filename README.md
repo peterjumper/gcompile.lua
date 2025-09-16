@@ -9,7 +9,7 @@ This is a personal plugin just to compile and run simple c++ files from neovim.
 
 ```lua
 return {
-    'kutiny/gcompile.nvim',
+    'peterjumper/gcompile.lua',
     config = function ()
         local mod = require('gcompile')
         mod.setup({
